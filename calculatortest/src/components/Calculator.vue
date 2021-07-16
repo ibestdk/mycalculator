@@ -63,7 +63,7 @@ export default {
       this.setPrenum();
     },
     minus(){
-      this.operator = (a,b) => a - b;
+      this.operator = (a,b) => b - a;
       this.setPrenum();
     },
     multiply(){
